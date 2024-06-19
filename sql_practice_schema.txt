@@ -1,0 +1,59 @@
+Description: information about major rollercoasters around the world
+Source: https://tuvalabs.com/datasets/roller_coasters_around_the_world/activities/
+
+Columns:
+    name (string): name of the rollercoaster
+    park (string): name of the amusement park where the rollercoaster is located
+    city (string): name of the city where the rollercoaster is located
+    country (string): name of the country where the rollercoaster is located
+    region (string): name of the continent/region where the rollercoaster is located
+    material (string): main construction material of the rollercoaster
+    height (numerical): height of the rollercoaster in meters
+    speed (numerical): speed of the rollercoaster in kilometers per hour
+    length (numerical): length of the rollercoaster in meters
+    inversion (string): whether a rollercoaster has any inversion (where the rollercoaster turns completely upside)
+    num_nversions (numerical): number of times that rollercoaster turns upside down
+    year_opened (numerical): year that the rollercoaster opened to the public
+
+
+CREATE TABLE coasters (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    park TEXT,
+    city TEXT,
+    country TEXT,
+    region TEXT,
+    material TEXT,
+    height REAL,
+    speed REAL,
+    length REAL,
+    inversion TEXT,
+    num_inversions INTEGER,
+    year_opened INTEGER
+);
+
+Description: data about 5000 popular board games.
+Source: https://www.kaggle.com/datasets/mrpantherson/board-game-data
+
+Columns:
+    name (string): title of the board game
+    min_players (numerical): how many players are required to play the game
+    max_players (numerical): the limit of players that can play one round of the game
+    avg_time (numerical): Average time in minutes it takes to complete one round of the game
+    released (numerical): what year the game was originally released to the public
+    mechanics (string): list of examples of mechanics used in the game, such as dice-rolling, hand management, card drafting, or cooperative play
+    category (string): genre of the board game, such as medieval, adventure, or economic
+    designer (string): name(s) of the designer(s) of the game
+
+
+CREATE TABLE games(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    min_players INTEGER,
+    max_players INTEGER,
+    avg_time INTEGER,
+    released INTEGER,
+    mechanics TEXT,
+    category TEXT,
+    designer TEXT
+);
