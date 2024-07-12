@@ -2,6 +2,8 @@
 
 ## Table of Contents
 1.  [d1schools.db](d1schools.db) - database of Division 1 colleges and uinversities (for practice and demo purposes with your students)
+2.  [d1schools_output.pdf](d1schools_output.pdf) - Questions and results for the d1scools database
+3.  []() - SELECT statements used for the d1schools dataset
 1.  [SQL Practice Questions.docx](SQL%20Practice%20Questions.docx) - handout for students (the questions to asks of each table)
 2.  [part1_results.pdf](part1_results.pdf) - what is returned from the database for part 1 - the games table
 3.  [part1.sql](part1.sql) - SELECT statements for each of the questions from part 1 - the games table
