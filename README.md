@@ -6,7 +6,7 @@
 1.  [d1schools.db](d1schools.db) - database of Division 1 colleges and uinversities (for practice and demo purposes with your students)
 2.  [d1schools_output.pdf](d1schools_output.pdf) - Questions and results for the d1scools database
 3.  [d1_schools_queries.sql](d1_schools_queries.sql) - SELECT statements used for the d1schools dataset
-4.  [Project 4 Student Handout](Project%204%20Student%20Handout.docx) - D1 Schools Student Handout (warm-up before you jump into the SQL)
+4.  [Project 4 Student Handout.docx](Project%204%20Student%20Handout.docx) - D1 Schools Student Handout (warm-up before you jump into the SQL)
 ### For students to practice on their own
 1.  [SQL Practice Questions.docx](SQL%20Practice%20Questions.docx) - handout for students (the questions to asks of each table)
 2.  [part1_results.pdf](part1_results.pdf) - what is returned from the database for part 1 - the games table
